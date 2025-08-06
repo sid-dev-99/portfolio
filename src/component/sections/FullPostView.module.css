@@ -1,0 +1,24 @@
+
+.content {
+  color: #d1d5db; 
+  line-height: 1.75;
+  text-align: justify;
+  hyphens: auto;
+}
+
+.content h2,
+.content h3,
+.content h4,
+.content strong {
+  color: #ffffff; 
+  text-align: left; 
+}
+
+.content p {
+  margin-bottom: 1.25rem; 
+}
+
+.content a {
+  color: #60a5fa; 
+  text-decoration: underline;
+}
