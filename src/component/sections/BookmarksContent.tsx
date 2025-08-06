@@ -1,4 +1,3 @@
-import React from 'react';
 
 export const BookmarksContent = () => (
   <div className="rounded-xl border border-neutral-800 bg-neutral-900/50 p-6 md:p-8 backdrop-blur-sm">

@@ -1,5 +1,4 @@
 import Blog from './component/Blog'
-import { Vortex } from './component/ui/vortex'
 
 function App() {
 

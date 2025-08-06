@@ -1,5 +1,5 @@
-import { ArrowRight, CircleDot, Radio } from 'lucide-react';
-import React from 'react';
+import { ArrowRight } from 'lucide-react';
+
 
 export const NotesContent = () => (
   <div className="rounded-xl border border-neutral-800 bg-neutral-900/50 p-6 md:p-8 backdrop-blur-sm">

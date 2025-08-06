@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { PageLayout } from './layout/PageLayout';
 import { Navigation } from './sections/Navigation';
 import { HomeContent } from './sections/HomeContent';
