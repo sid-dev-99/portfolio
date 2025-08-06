@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 interface VortexProps {}
 
-export const Vortex = (props: VortexProps) => {
+export const Vortex = (_props: VortexProps) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const containerRef = useRef(null);
   const animationFrameId = useRef<number | null>(null);
@@ -35,9 +35,7 @@ export const Vortex = (props: VortexProps) => {
   let particleProps = new Float32Array(particlePropsLength);
   let center: [number, number] = [0, 0];
 
-  const HALF_PI: number = 0.5 * Math.PI;
   const TAU: number = 2 * Math.PI;
-  const TO_RAD: number = Math.PI / 180;
   const rand = (n: number): number => n * Math.random();
   const randRange = (n: number): number => n - rand(2 * n);
   const fadeInOut = (t: number, m: number): number => {
@@ -53,7 +51,7 @@ export const Vortex = (props: VortexProps) => {
     if (canvas && container) {
       const ctx = canvas.getContext("2d");
       if (ctx) {
-        resize(canvas, ctx);
+        resize(canvas);
         initParticles();
         draw(canvas, ctx);
       }
@@ -144,7 +142,7 @@ export const Vortex = (props: VortexProps) => {
     return x > canvas.width || x < 0 || y > canvas.height || y < 0;
   };
 
-  const resize = (canvas: HTMLCanvasElement, ctx?: CanvasRenderingContext2D) => {
+  const resize = (canvas: HTMLCanvasElement) => {
     const { innerWidth, innerHeight } = window;
     canvas.width = innerWidth;
     canvas.height = innerHeight;
@@ -175,7 +173,7 @@ export const Vortex = (props: VortexProps) => {
   const handleResize = () => {
     const canvas = canvasRef.current;
     if (canvas) {
-      resize(canvas, canvas.getContext("2d")!);
+      resize(canvas);
     }
   };
 
