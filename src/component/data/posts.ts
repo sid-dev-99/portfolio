@@ -9,7 +9,7 @@ export interface Post{
 
 
 export const blogPosts: Post[] = [
-  { id: 3, title: "The Plant Must Grow", description: "A reflection on authentic growth that happens naturally, without force or illusion", date: "1 Aug 2025", shortDate: "1 Aug",content:`<p>In the world of organic farming, they speak of authenticity.
+  { id: 1, title: "The Plant Must Grow", description: "A reflection on authentic growth that happens naturally, without force or illusion", date: "1 Aug 2025", shortDate: "1 Aug",content:`<p>In the world of organic farming, they speak of authenticity.
 
 But authenticity is not a method. It is not a process.
 It is not a technique crafted by man's desperate need to control.
@@ -81,28 +81,30 @@ Only growth.
 Or nothing at all.
 
 </p>` },
-  { id: 1, title: "World being World", description: "What are we forgetting when we see around", date: "16 Jan 2025", shortDate: "16 Jan",content:`You wake up already bleeding. The alarm clock detonates like incoming fire. The mirror shows a soldier you barely recognize—eyes hollow, armor cracked. But the battlefield doesn't care if you're exhausted. Life moves forward, relentless and indifferent.
+  { id: 2, title: "World being World", description: "What are we forgetting when we see around", date: "16 Jan 2025", shortDate: "16 Jan",content:`You wake up expecting clarity. The world offers noise. Opinions shouting from every corner, advice wrapped in confidence, fear sold as wisdom. You look around and realize something simple and unsettling. The world is not confused. You are. The world is doing exactly what it has always done.
 
-They'll preach about “finding balance.” Ignore them. Balance is a fairy tale told by people who've never crawled through the trenches. Debt, betrayal, failure—these aren't just obstacles. They're enemy lines, and you don't get the luxury of peace talks. Your only choices: dig in or be buried.
+People lie. Systems exploit. Strength dominates weakness. This is not corruption of the world. This is the world being the world.
 
-Victory isn't about courage. It's about defiance. The kind that keeps a single mother pushing through double shifts, hands blistered but resolve unshaken. The kind that makes a bankrupt entrepreneur rebuild from ashes. Wars aren't won by heroes. They're won by those too furious to fall.
+You were taught that effort guarantees reward. That goodness attracts goodness. That if you play fair, life will respond in kind. These ideas were not evil, just naive. Reality does not sign moral contracts. It operates on momentum, not meaning.
 
-Fairness is a myth. The universe doesn't owe you justice. You'll take hits meant for someone else, carry wounds from battles you never picked. Keep moving. Every scar is proof that something tried to destroy you—and failed.
+The world does not care about your intentions. It responds only to what is. Your pain does not pause it. Your confusion does not slow it. While you question, it continues. While you hope, it moves on. This is not cruelty. This is neutrality.
 
-How to Fight:
+People complain endlessly about how things should be. About leaders, markets, relationships, destiny. But should is a word invented by the mind to escape what is. The moment you see this, frustration dissolves. Not because things improve, but because illusion collapses.
 
-1. Discomfort is your training ground. Easy roads lead nowhere. Learn to thrive in the dark.
+The world rewards clarity, not goodness. Awareness, not virtue. Those who see clearly move cleanly. Those who cling to stories suffer loudly.
 
-2. Know your enemies. Fear is a master of disguise. Study its tactics.
+You want fairness. The world offers consequences. You want comfort. The world offers friction. You want certainty. The world offers change.
 
-3. Burn the escape routes. No surrender. Every breath is an act of defiance.
+So stop negotiating with reality. Stop demanding explanations from something that never promised to explain itself. The argument with existence is what drains you, not existence itself.
 
-There's no ceasefire. No applause for surviving. But one day, you'll stand atop the wreckage, look down at the battlefield, and realize: You were the prize worth fighting for all along.
+When you drop expectations, something strange happens. Energy returns. Action becomes simple. You stop waiting for permission from the future. You respond to what is in front of you, without drama, without hope, without despair.
 
-Don't forget that the only purpose is to win the war
+The chaos does not disappear. Injustice does not end. The world does not soften. But it no longer owns you. You stand in it, not against it.
 
-Now pick up your weapon. The war is everywhere.</p>` },
-  { id: 2, title: "The War You Never Signed Up For", description: "A war day call the time has come", date: "7 Dec 2024", shortDate: "7 Dec",content:`<p>
+The world will continue to be the world. Ruthless, beautiful, indifferent, alive.
+
+And the moment you stop being surprised by it, you are finally free.` },
+  { id: 3, title: "The War You Never Signed Up For", description: "A war day call the time has come", date: "7 Dec 2024", shortDate: "7 Dec",content:`<p>
   
     You wake up already bleeding. The alarm clock detonates like incoming fire. The mirror shows a soldier you barely recognize—eyes hollow, armor cracked. But the battlefield doesn't care if you're exhausted. Life moves forward, relentless and indifferent.
 
